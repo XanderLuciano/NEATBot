@@ -56,12 +56,22 @@
       <HintPath>..\packages\RLBot.Framework.0.0.3\lib\net461\FlatBuffers.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="geometry3Sharp, Version=1.0.144.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\geometry3Sharp.1.0.144\lib\net45\geometry3Sharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MathNet.Numerics, Version=4.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Numerics.4.5.1\lib\net461\MathNet.Numerics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="RLBotDotNet, Version=0.0.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\RLBot.Framework.0.0.3\lib\net461\RLBotDotNet.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
